@@ -270,6 +270,9 @@ header nav ul {
         margin: 0;
         font-size: 2rem;
     }
+    section[name="hero-heading"] h2 {
+        margin-top: 15px;
+    }
 
     /* Hide hamburger menu */
     header .heading nav button {
