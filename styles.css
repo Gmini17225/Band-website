@@ -306,5 +306,60 @@ header nav ul {
         margin-bottom: 3rem;
     }
 
+/* hero layou */
+    section[name="hero-heading"] {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    section[name="hero-heading"] p {
+        max-width: 32rem;
+    }
+
+    section[name="hero-heading"] .highlight-box {
+        flex: 1 1 45%;
+        margin-top: 0;
+    }
+
+/* schedule */
+    section[name="intro-heading"],
+    section[name="schedule-preview-heading"] {
+        max-width: 60rem;
+    }
+
+/* rest from mobile */
+    section[name="schedule-preview-heading"] {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        transform: none;
+    }
+
+    section[name="schedule-preview-heading"] table {
+        font-size: 1rem;
+    }
+
+/* adjudicators cards row */
+    section[name="adjudicators-heading"] {
+        max-width: 100%;
+    }
+
+    section[name="adjudicators-heading"] > p {
+        max-width: 40rem;
+    }
+
+    section[name="adjudicators-heading"] article {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(33.333% - 1rem);
+        margin-right: 1.5rem;
+    }
+
+    section[name="adjudicators-heading"] article:last-of-type {
+        margin-right: 0;
+    }
+
 
 }
