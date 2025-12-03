@@ -254,4 +254,57 @@ header nav ul {
 
 
 /* desktop style */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+/* center page content */
+    header,
+    main,
+    footer {
+        max-width: 1170px;
+        margin-inline: auto;
+    }
+
+/* header row */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    header nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 0;
+    }
+
+    header nav li {
+        margin-bottom: 0;
+    }
+
+/* general spacing */
+    main {
+        padding-block: 2.5rem 3.5rem;
+    }
+
+    section {
+        margin-bottom: 3rem;
+    }
+
+
+}
