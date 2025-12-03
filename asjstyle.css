@@ -156,6 +156,8 @@ header nav ul {
         font-size: 1.35rem;
     }
 
+    
+    /* phone version */
     @media (min-width: 375px) {
 
         /* Adj cards */
