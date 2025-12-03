@@ -206,10 +206,32 @@ header nav ul {
     }
 
 
+    /* footer phone style */
+    footer {
+        background-color: #0d2340;
+        color: #ffffff;
+        padding: 1.25rem 1.5rem 2rem;
+        font-size: 0.9rem;
+    }
+
+    footer p {
+        margin: 0.35rem 0;
+    }
+
+    footer a {
+        color: #f8f8ff;
+        text-decoration: none;
+    }
+
+
+
 
 
 }
 
 
 /* tablet style */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+    
+}
