@@ -297,7 +297,7 @@ header nav ul {
         text-decoration: none;
     }
 
-    
+
 
     /* into sect */
 
@@ -335,26 +335,33 @@ header nav ul {
 
 
     /* adjudicators cards row */
-    section[name="adjudicators-heading"] {
-        max-width: 100%;
+
+    section[name="adjudicators-heading"] article:last-of-type {
+        margin-right: 0;
     }
 
-    section[name="adjudicators-heading"]>p {
-        max-width: 40rem;
+    section[name="adjudicators-heading"] {
+        max-width: 70rem;
+        margin-inline: auto;
     }
 
     section[name="adjudicators-heading"] article {
         display: inline-block;
         vertical-align: top;
-        width: calc(33.333% - 1rem);
-        margin-right: 1.5rem;
+        width: calc(33.33% - 1rem);
+        padding: 1rem;
+        background: #fff;
+        border-radius: 10px;
+        margin-right: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        margin-bottom: 30px;
     }
 
     section[name="adjudicators-heading"] article:last-of-type {
         margin-right: 0;
     }
 
-    }
+
 
     /* footer */
     footer {
@@ -365,6 +372,18 @@ header nav ul {
     }
 
     footer p {
-        margin: 0;
+        margin: 0.35rem 0;
+    }
+
+    footer {
+        background-color: #0d2340;
+        color: #ffffff;
+        padding: 1.25rem 1.5rem 2rem;
+        font-size: 0.9rem;
+    }
+
+    footer a {
+        color: #f8f8ff;
+        text-decoration: none;
     }
 }
