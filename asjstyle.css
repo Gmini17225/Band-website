@@ -156,9 +156,21 @@ header nav ul {
         font-size: 1.35rem;
     }
 
-    
+
     /* phone version */
     @media (min-width: 375px) {
+
+        /*Begining Adjudicators section phone style*/
+
+
+
+
+        section[name="hero-adjudicators"] h2 {
+            font-size: 1.35rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
 
         /* Adj cards */
         section[name="scott-leithead"],
@@ -178,6 +190,16 @@ header nav ul {
             font-size: 1.35rem;
             margin-bottom: 0.4rem;
         }
+
+        section[name="working-heading"] {
+            background-color: #c5d1da;
+            margin-top: 1rem;
+            padding: 2rem 1.5rem;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            width: 100vw;
+        }
+
 
     }
 
