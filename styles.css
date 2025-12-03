@@ -156,6 +156,25 @@ header nav ul {
         font-size: 1.35rem;
     }
 
+    /* scheduling */
+
+    div.schedule-preview-heading {
+        background: #fff;
+        padding: 2rem 1.5rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+    }
+
+    div.table-content {
+        background: #c5d1da;
+        padding: 2rem 1.5rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+    }
+
+
 
     /* main content phone style */
 
@@ -179,6 +198,7 @@ header nav ul {
     section[name="adjudicators-heading"] h2 {
         font-size: 1.35rem;
         margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
     }
 
     section[name="adjudicators-heading"] article {
@@ -200,9 +220,12 @@ header nav ul {
     }
 
     .highlight-box2 {
-        background-color: #e0f0ff;
-        padding: 1rem;
+        background-color: #c5d1da;
         margin-top: 1rem;
+        padding: 2rem 1.5rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
     }
 
 
@@ -231,7 +254,4 @@ header nav ul {
 
 
 /* tablet style */
-@media (min-width: 768px) {
-
-    
-}
+@media (min-width: 768px) {}
