@@ -156,15 +156,6 @@ header nav ul {
         font-size: 1.35rem;
     }
 
-
-    /* phone version */
-    @media (min-width: 375px) {
-
-        /*Begining Adjudicators section phone style*/
-
-
-
-
         section[name="hero-adjudicators"] h2 {
             font-size: 1.35rem;
             margin-bottom: 0.5rem;
