@@ -354,10 +354,6 @@ header nav ul {
         margin-right: 0;
     }
 
-    /* visit section */
-    section[name="visit-heading"] {
-        max-width: 45rem;
-        margin-inline: auto;
     }
 
     /* footer */
