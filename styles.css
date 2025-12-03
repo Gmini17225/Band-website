@@ -256,105 +256,90 @@ header nav ul {
 /* desktop style */
 @media (min-width: 768px) {
 
-@media (min-width: 768px) {
+    /* header and nav */
 
-/* Layout */
-    header,
-    main,
-    footer {
-        max-width: 1170px;
-        margin-inline: auto;
-    }
 
-    /* header */
-    header {
-        display: flex;
+    header .heading {
+        flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-        padding-block: 1rem;
+        text-align: center;
     }
 
+    /* header*/
     header h1 {
-        font-size: 2rem;
-        text-align: left;
-        margin-bottom: 0;
-    }
-
-/* Remove bullets */
-    header nav ul {
-        list-style: none;
         margin: 0;
-        padding: 0;
-
-        display: flex;        
-        gap: 1.25rem;
+        font-size: 2rem;
     }
 
-    header nav li {
-        margin: 0;              
-    }
-
-/* hide burger */
-    header button {
+    /* Hide hamburger menu */
+    header .heading nav button {
         display: none;
     }
 
-
-
-
-/* general spacing */
-     main {
-        padding-block: 2.5rem 3.5rem;
-    }
-
-    section {
-        margin-bottom: 3rem;
-    }
-
-/* hero layout */
-    section[name="hero-heading"] {
+    /* Desktop nav */
+    header .heading ul {
         display: flex;
-        align-items: center;
-        gap: 2rem;
-        padding: 2rem;
+        flex-direction: row;
+        gap: 1.75rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
     }
 
-    section[name="hero-heading"] p {
-        max-width: 36rem;
+    header .heading li {
+        margin: 0;
     }
 
-    section[name="hero-heading"] .highlight-box {
-        flex: 1 1 45%;
-        margin-top: 0;
-    }
-
-/* intro schedule */
-    section[name="intro-heading"],
-    section[name="schedule-preview-heading"] {
-        max-width: 60rem;
-    }
-
-/* Reset mobile */
-    section[name="schedule-preview-heading"] {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        transform: none;
-    }
-
-    section[name="schedule-preview-heading"] table {
+    header .heading a {
+        color: #fff;
         font-size: 1rem;
+        text-decoration: none;
     }
-
 
     
 
-/* adjudicators cards row */
+    /* into sect */
+
+    section[name="intro-heading"] {
+        max-width: 60rem;
+        margin-inline: auto;
+    }
+
+    /* schedule */
+
+    .schedule-preview-heading {
+        max-width: 60rem;
+        margin-inline: auto;
+        padding: 2rem 0;
+    }
+
+    .table-content {
+        background-color: #c5d1da;
+        padding: 1.5rem;
+        margin-top: 1.25rem;
+        border-radius: 8px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 0.75rem 0.5rem;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+
+    /* adjudicators cards row */
     section[name="adjudicators-heading"] {
         max-width: 100%;
     }
 
-    section[name="adjudicators-heading"] > p {
+    section[name="adjudicators-heading"]>p {
         max-width: 40rem;
     }
 
@@ -369,13 +354,13 @@ header nav ul {
         margin-right: 0;
     }
 
-/* visit section */
+    /* visit section */
     section[name="visit-heading"] {
         max-width: 45rem;
         margin-inline: auto;
     }
 
-/* footer */
+    /* footer */
     footer {
         display: flex;
         justify-content: space-between;
