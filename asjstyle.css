@@ -206,14 +206,6 @@ header nav ul {
 
 
 
-
-
-
-
-
-
-
-
     /* footer phone style */
     footer {
         background-color: #0d2340;
@@ -229,5 +221,78 @@ header nav ul {
     footer a {
         color: #f8f8ff;
         text-decoration: none;
+    }
+}
+
+
+/* desktop style */
+@media (min-width: 768px) {
+
+    header,
+    main,
+    footer {
+        max-width: 1170px;
+        margin-inline: auto;
+    }
+
+    /* header layout */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 1rem;
+        padding-bottom: 50px;
+    }
+
+    header h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    div.adj-hero {
+        margin-top: 30px;
+    }
+
+    /* desktop nav */
+    button {
+        display: none;
+    }
+
+    header nav {
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    header nav li {
+        margin-bottom: 0;
+    }
+
+
+    /* Adjudicator cards row */
+    section[name="scott-leithead"],
+    section[name="wendy-zander"],
+    section[name="kathie-van-lare"] {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(33.333% - 1rem);
+        margin-right: 1rem;
+    }
+
+    section[name="kathie-van-lare"] {
+        margin-right: 0;
+    }
+
+    /* closing */
+    section[name="hero-adjudicators"],
+    section[name="working-heading"] {
+        max-width: 60rem;
+    }
+
+    footer {
+        text-align: center;
     }
 }
