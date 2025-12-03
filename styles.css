@@ -303,7 +303,7 @@ header nav ul {
 
 
 /* general spacing */
-    main {
+     main {
         padding-block: 2.5rem 3.5rem;
     }
 
@@ -311,14 +311,30 @@ header nav ul {
         margin-bottom: 3rem;
     }
 
+/* hero layout */
+    section[name="hero-heading"] {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
 
-/* schedule */
+    section[name="hero-heading"] p {
+        max-width: 36rem;
+    }
+
+    section[name="hero-heading"] .highlight-box {
+        flex: 1 1 45%;
+        margin-top: 0;
+    }
+
+/* intro schedule */
     section[name="intro-heading"],
     section[name="schedule-preview-heading"] {
         max-width: 60rem;
     }
 
-/* rest from mobile */
+/* Reset mobile */
     section[name="schedule-preview-heading"] {
         width: 100%;
         margin-left: 0;
@@ -329,6 +345,9 @@ header nav ul {
     section[name="schedule-preview-heading"] table {
         font-size: 1rem;
     }
+
+
+    
 
 /* adjudicators cards row */
     section[name="adjudicators-heading"] {
