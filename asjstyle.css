@@ -156,6 +156,28 @@ header nav ul {
         font-size: 1.35rem;
     }
 
+    @media (min-width: 375px) {
+
+        /* Adj cards */
+        section[name="scott-leithead"],
+        section[name="wendy-zander"],
+        section[name="kathie-van-lare"] {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+            border: 1px solid #e0e2ea;
+        }
+
+        section[name="scott-leithead"] h2,
+        section[name="wendy-zander"] h2,
+        section[name="kathie-van-lare"] h2 {
+            font-size: 1.35rem;
+            margin-bottom: 0.4rem;
+        }
+
+    }
 
 
 
