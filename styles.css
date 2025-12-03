@@ -152,4 +152,23 @@ header nav ul {
         text-align: center;
     }
 
+    /* main content phone style */
+
+    main {
+        padding-block: 1.5rem 2.5rem;
+    }
+
+    section {
+        margin-bottom: 2.25rem;
+    }
+
+    section p {
+        margin-bottom: 0.75rem;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
 }
